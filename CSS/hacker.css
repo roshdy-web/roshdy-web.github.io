@@ -1,0 +1,485 @@
+/* صفحة رقم3  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7f9;
+}
+
+/* start scrollbar */
+
+::-webkit-scrollbar{
+    width: 15px;
+    }
+    
+    ::-webkit-scrollbar-track{
+    background-color: #333;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+    background-color: royalblue;
+    border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+    background-color: #4361ee;
+    }
+    html {scrollbar-color: royalblue #333;
+    scrollbar-width: thin;
+    }
+    
+    /* end scrollbar */
+
+
+/* بداية كود زر الذهاب الى الاعلى */
+
+
+.up{
+    z-index: 5;
+    position: fixed;
+    color: white;
+    height: 45px;
+    top: 970px;
+    background-color: #eee;
+    right: -100px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 5px;
+    border-radius: 50%;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px gray ;
+}
+.up.show{
+    right: 30px;
+}
+.up:hover{
+    background-color: #ddd;
+}
+
+
+/* نهاية كود زر الذهاب الى الاعلى */
+
+/* بداية كود الهيدر */
+header{
+    position: relative;
+    top: 0;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+    background-color: #F7DF1E;        
+}
+.logo{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Almarai', sans-serif;
+    padding: 33px 38px;
+    background-color: black;
+    float: right;
+}
+
+@media  ( max-width:600px) {
+    header .logo{
+        font-size: 13px;
+        padding: 42px 10px;
+    }
+}
+
+.logo:hover{
+    background: none;
+    color: black;
+    box-shadow: 5px 5px 25px;
+}
+/* نهاية كود الهيدر */
+.contaenr{
+    width: 1500px;
+    height: 900px;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.box{
+    position: relative;
+    float: right;
+    width: 70%;
+    
+}
+h1{
+    position: relative;
+    font-family: 'Almarai', sans-serif;
+    color: royalblue;
+    font-size: 33px;
+    margin-top: 20px;
+    float: right;
+    right: 50px;
+    top: 20px;
+}
+p{
+    position: relative;
+    width: 80%;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+    float: right;
+    top: 20px;
+    right: 55px;
+}
+.visual{
+    position: relative;
+    text-align: center;
+    height: 300px;
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    float: right;
+    right: 50px;
+}
+.me-post{
+    position: relative;
+    top: 600px;
+    width: 100%;
+    height: 200px;
+    border: solid 2px red;
+}
+.me-post img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 70px;
+    right: 20px;
+    cursor: pointer;
+}
+.me-post h1{
+    position: absolute;
+    color: #000;
+    right: 10px;
+    top: -10px;    
+    font-size: 23px;
+}
+.me-post h3{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    color: rgb(78, 78, 78);
+}
+
+hr{
+    width: 1600px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+/* اصغر ميديا */
+@media screen  and ( max-width:450px) {
+    .contaenr{
+        background-color: #FFF;
+        border-radius: 10px;
+        width: 300px;
+    }
+    h1{
+        text-align: center;
+        font-size: 15px;
+    }
+    p{
+        text-align: center;
+        font-size: 13px;
+    }
+    .visual{
+        width: 400px;
+        height: 200px;
+    }
+    hr{
+        width: 350px;
+    }
+}
+
+/* ميديا اكبر شوية */
+@media screen  and (min-width:451px) and ( max-width:600px) {
+    .contaenr{
+        background-color: #FFF;
+        border-radius: 10px;
+        width: 400px;
+    }
+    h1{
+        text-align: center;
+        font-size: 10px;
+    }
+    p{
+        text-align: center;
+        font-size: 13px;
+    }
+    .visual{
+        width: 300px;
+        height: 200px;
+    }
+    hr{
+        width: 450px;
+    }
+}
+
+/* ميديا اكبر شوية 2 */
+@media screen  and (min-width:601px) and ( max-width:800px) {
+    .contaenr{
+        background-color: #FFF;
+        border-radius: 10px;
+        width: 550px;
+    }
+    h1{
+        text-align: center;
+        font-size: 12px;
+    }
+    p{
+        text-align: center;
+        font-size: 13px;
+    }
+    .visual{
+        width: 400px;
+        height: 200px;
+    }
+    hr{
+        width: 600px;
+    }
+}
+/* ميديا اكبر شوية 3 */
+@media screen  and (min-width:801px) and ( max-width:1000px) {
+    .contaenr{
+        background-color: #FFF;
+        border-radius: 10px;
+        width: 770px;
+    }
+    h1{
+        text-align: center;
+        font-size: 17px;
+    }
+    p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .visual{
+        width: 600px;
+        height: 300px;
+    }
+    hr{
+        width: 800px;
+    }
+}
+
+/* ميديا لارج */
+@media screen  and (min-width:1001px) and ( max-width:1200px) {
+    .contaenr{
+        background-color: #FFF;
+        border-radius: 10px;
+        width: 950px;
+    }
+    h1{
+        text-align: center;
+        font-size: 17px;
+    }
+    p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .visual{
+        width: 600px;
+        height: 300px;
+    }
+    hr{
+        width: 1000px;
+    }
+}
+
+/* ميديااكس لارج */
+@media screen  and (min-width:1201px) and ( max-width:1500px) {
+    .contaenr{
+        background-color: #FFF;
+        border-radius: 10px;
+        width: 1250px;
+    }
+    h1{
+        text-align: center;
+        font-size: 17px;
+    }
+    p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .visual{
+        width: 800px;
+        height: 400px;
+    }
+    hr{
+        width: 1500px;
+    }
+}
+
+.Tor{
+    width: 1500px;
+    height: 850px;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+/* اصغر ميديا */
+@media screen  and ( max-width:450px) {
+    .Tor{
+        background-color: #FFF;
+        border-radius: 10px;
+        width: 300px;
+    }
+    h1{
+        text-align: center;
+        font-size: 5px;
+    }
+    p{
+        text-align: center;
+        font-size: 4px;
+    }
+    .visual{
+        display: none;
+    }
+}
+
+/* ميديا اكبر شوية */
+@media screen  and (min-width:451px) and ( max-width:600px) {
+    .Tor{
+        background-color: #FFF;
+        border-radius: 10px;
+        width: 400px;
+    }
+    h1{
+        text-align: center;
+        font-size: 12px;
+    }
+    p{
+        text-align: center;
+        font-size: 11px;
+    }
+    .visual{
+        display: none;
+    }
+}
+
+/* ميديا اكبر شوية 2 */
+@media screen  and (min-width:601px) and ( max-width:800px) {
+    .Tor{
+        background-color: #FFF;
+        border-radius: 10px;
+        width: 550px;
+    }
+    h1{
+        text-align: center;
+        font-size: 12px;
+    }
+    p{
+        text-align: center;
+        font-size: 11px;
+    }
+    .visual{
+        width: 400px;
+        height: 200px;
+    }
+}
+/* ميديا اكبر شوية 3 */
+@media screen  and (min-width:801px) and ( max-width:1000px) {
+    .Tor{
+        background-color: #FFF;
+        border-radius: 10px;
+        width: 770px;
+    }
+    h1{
+        text-align: center;
+        font-size: 17px;
+    }
+    p{
+        text-align: center;
+        font-size: 13px;
+    }
+    .visual{
+        width: 600px;
+        height: 250px;
+    }
+}
+
+/* ميديا لارج */
+@media screen  and (min-width:1001px) and ( max-width:1200px) {
+    .Tor{
+        background-color: #FFF;
+        border-radius: 10px;
+        width: 950px;
+    }
+    h1{
+        text-align: center;
+        font-size: 17px;
+    }
+    p{
+        text-align: center;
+        font-size: 13px;
+    }
+    .visual{
+        width: 600px;
+        height: 300px;
+    }
+}
+
+/* ميديااكس لارج */
+@media screen  and (min-width:1201px) and ( max-width:1500px) {
+    .Tor{
+        background-color: #FFF;
+        border-radius: 10px;
+        width: 1250px;
+    }
+    h1{
+        text-align: center;
+        font-size: 17px;
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .visual{
+        width: 600px;
+        height: 300px;
+    }
+}
+
+#hacker{
+    height: 1000px;
+}
+
+
+
+
+
+/* بداية الفوتر */
+
+.footer{
+    text-align: center;
+    background-color: black;
+    height: 100px;
+    margin-top: 50px;
+}
+.footer span{
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+    font-family: 'Almarai', sans-serif;
+    color: #FFF;
+}
+/* نهاية الفوتر */

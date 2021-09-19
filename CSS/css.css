@@ -1,0 +1,158 @@
+    * {
+    padding: 0;
+    margin: 0;
+    }
+    body {
+    background-color: #e0e0e0;
+    }
+    /* بداية كود الهيدر */
+    .form-inline {
+    position: absolute;
+    left: 20px;
+    }
+    .navbar {
+    background-color: #333;
+    }
+    .navbar-nav {
+    position: absolute;
+    }
+    .btn {
+    margin-right: 5px;
+    }
+    /* نهاية كود الهيدر */
+
+    /* بداية كود الاسليدر */
+    .container {
+    margin-top: 50px;
+    }
+    /* نهاية كود الاسليدر */
+
+    hr{
+        height: 2px;
+        width: 100%;
+        background-color: #495057;
+    }
+
+    /* بداية كود دورة جافا سكريبت */
+    #row2 {
+    margin-top: 50px;
+    background-color: #ffeb4e;
+    }
+    #row2 .col-12 img {
+    width: 100%;
+    height: 100%;
+    }
+    #row2 .col-12 ul {
+    text-align: right;
+    margin-right: 25px;
+    }
+    #row2 .col-12 h1 {
+    position: relative;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #000;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: droid_arabic_naskh_regular;
+    }
+    #row2 .col-12 ul li {
+    position: relative;
+    margin-right: 12px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: droid_arabic_naskh_regular;
+    }
+
+    /* نهاية كود دورة جافا سكريبت */
+
+    /* بداية كود المنتجات المتاحة فى الموقع */
+    .Producer {
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: center;
+    height: 500px;
+    background-color: #f8f9fa;
+    }
+    .Producer:hover{
+        /* bottom: 50px; */
+        /* transition: 0.6s; */
+        box-shadow: 5px 5px 15px  gray;
+        transform: translateY(-5%);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .Producer h1 {
+    background: #088a4b;
+    color: #fff;
+    padding: 5px;
+    font-size: 22px;
+    }
+    .next {
+        text-align: right;
+    font-size: 19px;
+    font-weight: 400;
+    color: #333;
+    cursor: pointer;
+    }
+    .next span {
+    font-weight: 600;
+    color: #333;
+    font-size: 20px;
+    }
+    /* نهاية كود المنتجات المتاحة فى الموقع */
+
+    /* بداية كود نهاية الصفحة */
+    .footer {
+    position: relative;
+    height: 80px;
+    margin-top: 30px;
+    background-color: #333;
+    }
+    .footer .footer-r {
+    position: absolute;
+    text-align: center;
+    color: #f8f9fa;
+    right: 50px;
+    top: 23px;
+    }
+    .footer .footer-r .itmes {
+    position: relative;
+    display: flex;
+    list-style: none;
+    }
+    .footer .footer-r .itmes li {
+    margin: 5px;
+    }
+    .footer .footer-r .itmes li i {
+    font-size: 25px;
+    }
+    .footer .footer-r .itmes li i:hover {
+    border-radius: 2px;
+    transition: 0.5s;
+    transform: translateY(60% -50%);
+    background-color: rgb(151, 151, 151);
+    cursor: pointer;
+    transform: translateY(-20%);
+    }
+    .footer span{
+    position: relative;
+    top: 23px;
+    color: #f8f9fa;
+    left: 50px;
+    font-size: 20px;
+    }
+
+  /* Mobile */
+
+@media (max-width: 460px) {
+    .footer span{
+        display: none;
+    }
+    .footer .footer-r{
+        position: absolute;
+        right: 120px;
+    }
+}
+/* نهاية كود نهاية الصفحة */

@@ -1,0 +1,187 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #f0f6ff!important;
+}
+.paerant{
+    width: 1500px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+    background-color: #fff;
+}
+/* بداية كود الهيدر */
+header{
+    top: 0;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+    background-color: #F7DF1E;        
+}
+.logo{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Almarai', sans-serif;
+    padding: 33px 38px;
+    background-color: black;
+    float: right;
+}
+
+
+@media  ( max-width:600px) {
+    header .logo{
+        font-size: 13px;
+        padding: 42px 10px;
+    }
+}
+.logo:hover{
+    background: none;
+    color: black;
+    box-shadow: 5px 5px 25px;
+}
+/* نهاية كود الهيدر */
+
+
+
+.icdl{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    width: 24%;
+    margin-top: 50px;
+    height: 400px;
+    top: 50px;
+    background: #eee;
+    margin-left: 10px;
+}
+.icdl:hover{
+    box-shadow: 5px 5px 15px;
+    transition: 0.5s;
+}
+@media  ( max-width:767px) {
+    .paerant{
+        width: 350px;
+        height: 1900px;    
+    }
+    .paerant .icdl{
+        display: grid;
+        cursor: pointer;
+        width: 94%;
+        height: 400px;
+        background: #eee;
+        margin-top: 60px;
+    }
+    .paerant .icdl a{
+        top: -20px;
+    }
+    .paerant .icdl .logo-icdl{
+        width: 50%;
+        height: 100px;
+        left: 100px;
+    }
+    .paerant .icdl h3{
+        position: relative;
+        top: 10px;
+    }
+    .paerant .icdl span {
+        top: 0px;
+    }
+    .paerant .icdl .free a{
+        top: 0;
+    }
+}
+
+@media screen  and (min-width:767px) and ( max-width:1100px) {
+    .paerant{
+        width: 500px;
+        height: 1000px;
+    }
+    .paerant .icdl {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        width: 47%;
+        margin-top: 50px;
+        height: 400px;
+        background: #eee;
+        margin-left: 10px;
+    }
+}
+@media screen  and (min-width:1101px) and ( max-width:1600px) {
+    .paerant{
+        width: 1000px;
+        height: 1000px;
+    }
+    .paerant .icdl {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        width: 47%;
+        margin-top: 50px;
+        height: 400px;
+        background: #eee;
+        margin-left: 10px;
+    }
+}
+
+
+
+.icdl .download{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    top: 10px;
+}
+.icdl .logo-icdl{
+    position: relative;
+    text-align: center;
+    top: 60px;
+    height: 150px;
+    width: 200px;
+}
+.icdl a{
+    position: relative;
+    justify-content: center;
+    top: 50px;
+    padding: 10px 50px;
+    background: none;
+    text-decoration: none;
+    border:  1px solid #635ebe;
+    border-radius: 25px;
+    font-size: 20px;
+    color: #000;
+}
+.icdl a:hover{
+    background-color: #635ebe;
+    box-shadow: 4px 4px 10px #635ebe;
+    transition: 0.3s;
+    color: white;
+}
+.icdl h3{
+    position: relative;
+    text-align: center;
+    color: rgba(58, 58, 58, 0.856);
+    font-size: 30px;
+    top: 30px;
+}
+.icdl span{
+    position: relative;
+    text-align: center;
+    color: #839bb3!important;
+    top: 20px;
+}
+.paerant .free a{
+    background-color: #ff4d6d;
+    padding: 6px 12px;
+    top: 20px;
+    margin-left: 5px;
+}
