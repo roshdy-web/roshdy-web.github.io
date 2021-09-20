@@ -103,6 +103,20 @@
     }
     /* نهاية كود المنتجات المتاحة فى الموقع */
 
+    /* بداية كود اترك تعليق */
+    .co{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        border-top: solid #0259E6;
+        border-right: solid #0FFC96;
+        border-bottom: solid #98E602;
+        border-left: solid #FEB403;
+        border-radius: 10px;
+    }
+    /* نهاية كود اترك تعليق */
+
     /* بداية كود نهاية الصفحة */
     .footer {
     position: relative;
