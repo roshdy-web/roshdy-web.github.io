@@ -3,8 +3,14 @@
     margin: 0;
     }
     body {
-    background-color: #e0e0e0;
+    /* background-color: #e0e0e0; */
     }
+    /* .up{
+        position: absolute;
+        right: 0;
+        top: 1000px;
+        background-color: #e0e0e0;
+    } */
     /* بداية كود الهيدر */
     .form-inline {
     position: absolute;
@@ -102,6 +108,35 @@
     font-size: 20px;
     }
     /* نهاية كود المنتجات المتاحة فى الموقع */
+
+        /* بداية كود تعريفي للزائر */
+        .ADMIN .col{
+            border-top: groove #FEB403;
+            border-bottom: groove #0FFC96;
+            border-right: groove #0259E6;
+            border-left: groove #98E602;
+            border-radius: 10px;
+            width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+        }
+        .card{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        h5{
+            color: #088a4b;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .card-body p{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+            color: #495057;
+        }
+        /*  نهاية كود تعريفي للزائر */
 
     /* بداية كود اترك تعليق */
     .co{
