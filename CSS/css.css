@@ -181,7 +181,6 @@
     border-radius: 2px;
     transition: 0.5s;
     transform: translateY(60% -50%);
-    background-color: rgb(151, 151, 151);
     cursor: pointer;
     transform: translateY(-20%);
     }
