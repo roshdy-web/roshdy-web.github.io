@@ -1,27 +1,10 @@
-// let span = document.querySelector(".up");
+// var san = prompt ("ادخل سنك هنا");
 
-// window.onscroll = function () {
-//     // console.log(this.scrollY);
-//     if (this.scrollY >= 1000) {
-//         span.classList.add("show");
-//     } else {
-//         span.classList.remove("show");
-//     }
-// };
-
-
-// span.onclick = function () {
-//     window.scrollTo({
-//         top: 0,
-//         behavior: "smooth",
-//     });
-// };
-
-// const dark = document.getElementById("dark")
-// const body = document.getElementById("body")
-
-// dark.addEventListener("click", (eo) => {
-
-//     body.classList.add("dark")
-
-// })
+// if (san < 18 ) {
+//     document.getElementById("test").innerHTML =
+//     "اسف سنك صغير" + san + "ممنوع الدخول"
+// } else {
+//     document.getElementById("test").innerHTML =
+//     "سنك مناسب " + san + " الدخول مسموح"
+// }
+    

@@ -4,6 +4,23 @@
     }
     body {
     background-color: #1d2124;
+    /* animation-name: color; */
+    animation-duration: 3s;
+    /* animation-iteration-count: infinite; */
+    }
+    @keyframes color {
+      0%{
+        background-color: #1d2124;
+      }
+      20%{
+        background-color: red;
+      }
+      50%{
+        background-color: green;
+      }
+      100%{
+        background-color: blue;
+      }
     }
     /* .up{
         position: absolute;
@@ -80,6 +97,12 @@
     text-align: center;
     height: 500px;
     background-color: #f8f9fa;
+    border-radius: 2px;
+    }
+    #test{
+        text-align: center;
+        font-size: 25px;
+        background-color: #FEB403;
     }
     .Producer:hover{
         /* bottom: 50px; */
@@ -158,6 +181,7 @@
     height: 80px;
     margin-top: 30px;
     background-color: #333;
+    
     }
     .footer .footer-r {
     position: absolute;
@@ -165,6 +189,7 @@
     color: #f8f9fa;
     right: 50px;
     top: 23px;
+    
     }
     .footer .footer-r .itmes {
     position: relative;
@@ -176,13 +201,27 @@
     }
     .footer .footer-r .itmes li i {
     font-size: 25px;
+    /* transform: rotate(360deg); */
+    /* transition: 5s; */
+    animation-name: up-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+    @keyframes up-down {
+        /* 0% {
+            opacity: 1;
+        } */
+        100% {
+            transform: translateY(-20px);
+        }
     }
     .footer .footer-r .itmes li i:hover {
     border-radius: 2px;
-    transition: 0.5s;
-    transform: translateY(60% -50%);
+    /* transition: 5s;
+    transform: translate(-20px,20px); */
+    /* background-color: rgb(151, 151, 151); */
     cursor: pointer;
-    transform: translateY(-20%);
     }
     .footer span{
     position: relative;
